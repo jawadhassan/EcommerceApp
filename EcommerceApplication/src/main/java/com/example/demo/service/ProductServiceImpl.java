@@ -7,8 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.exception.ResourceNotFoundException;
 import com.example.demo.model.Product;
-
-import repository.ProductRepository;
+import com.example.demo.repository.ProductRepository;
 
 @Service
 @Transactional

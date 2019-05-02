@@ -2,10 +2,14 @@ package com.example.demo.service;
 
 import java.time.LocalDate;
 
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import com.example.demo.model.Order;
+import com.example.demo.repository.OrderRepository;
 
-import repository.OrderRepository;
-
+@Service
+@Transactional
 public class OrderServiceImpl implements OrderService {
 
 	private OrderRepository orderRepository;

@@ -4,8 +4,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.demo.model.OrderProduct;
-
-import repository.OrderProductRepository;
+import com.example.demo.repository.OrderProductRepository;
 
 @Service
 @Transactional
